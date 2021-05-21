@@ -10,7 +10,7 @@ package arrays
     For numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the number.
  */
 
-class Solution {
+class FizzBuzz {
     fun fizzBuzz(n: Int): ArrayList<String> {
 
         val result = ArrayList<String>()
@@ -31,7 +31,7 @@ class Solution {
 }
 
 fun main() {
-    val fizzBuzz = Solution()
+    val fizzBuzz = FizzBuzz()
     val n = 15
     println(fizzBuzz.fizzBuzz(n))
 }
